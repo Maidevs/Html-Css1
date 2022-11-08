@@ -5,21 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issu</title>
-    <link rel="stylesheet" href="./style.css">
-<header><div> <h1> issu</h1></div> <div> Already a user? <br> <a href="#"> Sign in</a></div></header>
-<img>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-    <div><p>Create an Issu Account</p></div>
-    <div> <button> <img> <p>Sign with Google</p></button> <button> <img> <p>Continue with Facebook</p></button> 
-        <br><p>or with email</p></div>
-    <div><label></label>
-        <label></label>
-    <input> <p> I accept the Terms of Service and the Profesional Terms of Service. </p></div>
-    <div><button> Create Account</button></div></nav>
+<header>
+    <div class="logo"></div>
+    <div class="login"></div>
+</header>
+<main> 
+    <div class="container">
+        <h2>Create an Issu Account</h2>
+        <div class="social-btn">
+
+        </div>
+        <div class="social-btn">
+
+        </div>
+        <p> or with email</p>
+        <form>
+            <label for="email"><b>Your Email</b></label>
+            <input type="email" id="email" placeholder="example@tuemail.com" required>
+
+            <label for="pswd"><b>Password</b></label>
+            <input type="password" id="password" placeholder="yoursecret" required>
+
+            <label>
+                <input type="checkbox" name="remember"></input> 
+                I accept <a href="#">the terms and conditions of service.</a>
+            </label>
+
+            <button class="btn"> Create an Account.</button>
+            
+        </form>
+    </div>
+    </main>
+    <footer>
+        <ul> 
+            <li><a href="#">Issu-inc.</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">DMCA</a></li>
+        </ul>
+    </footer>
 </body>
-<footer>
-    <div><p>Issu inc.</p><p>Terms</p><p>Privacy</p><p>DMCA</p></div>
-</footer>
 </html>
