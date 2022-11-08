@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+header {
+    box-shadow: #9b9b9b;
+}
+
+header img {
+    width: 200px;
+    display: inline-block;
+}
+
+header .login {
+    float: right;
+    display: inline-block;
+}
+
+header .container {
+    margin: 0 auto;
+    width: 1440px;
+    padding: 1.5em 2em;
+}
+
+main .container{
+    margin: 0 auto;
+    width: 1080px;
+    padding: 1.5em 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+input[type=email], input[type=password]{
+    width: 50%;     
+    padding: 12px 20px;     
+    margin: 8px 0;     
+    display: inline-block;     
+    border: 1px solid #ccc;     
+    box-sizing: border-box;
+}
+
+label {
+    display:block; 
+}
+
+button.btn {
+    border: 3px dashed #9b9b9b;
+    border-radius: 25px;
+    background-color: white;
+    color: #9b9b9b;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    cursor: pointer;
+    width: 25%;
+}
+
+footer {
+    border-top: 3px solid grey;
+}
+
+footer .container {
+    margin: 0 auto;
+    width: 1440px;
+    padding: 1.5em 2em;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+footer ul li a.logo {
+    margin-right: 200px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    
+}
