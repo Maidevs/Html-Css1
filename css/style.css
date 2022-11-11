@@ -4,6 +4,7 @@ body {
 
 header {
     box-shadow: #9b9b9b;
+    filter: blur(10px)
 }
 
 header img {
